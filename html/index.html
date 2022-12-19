@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+    <!-- Font-family import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="/js/script.js"></script>
+    <header>
+        <div class="caixa-cabecalho">
+            <h1>
+                <img src="/images/padlock.png">
+            </h1>
+    
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+    
+                    <li>
+                        <a href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <label class="titulo-campo">Entrada
+                    <textarea rows="20" cols="50" id="texto-entrada" class="texto-entrada" placeholder="Digite seu texto aqui"></textarea>
+                </label>
+                <label class="titulo-campo">Saída
+                    <textarea rows="20" cols="50" id="texto-saida" class="texto-saida" placeholder="Texto de saída" readonly onclick="copyContent()"></textarea>
+                </label>
+                <label class="titulo-campo">Chave
+                    <input type="text" id="chave" class="chave" placeholder="Chave de criptografia">
+                </label>
+                
+                <div class="botoes-formulario">
+                    <input type="button" id="criptografar" class="botao-criptografar" value="Criptografar" onclick="clickEncryptBtn()">
+                    <input type="button" id="descriptografar" class="botao-descriptografar" value="Descriptografar" onclick="clickDecryptBtn()">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <div class="caixa-rodape">
+            <p>Gabriel Pinto Sasaki</p>
+        </div>
+    </footer>
+</body>
+</html>
