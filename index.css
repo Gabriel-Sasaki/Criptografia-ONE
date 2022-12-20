@@ -74,6 +74,11 @@ main {
 .video-como-usar {
     width: 80%;
     margin: 0 10%;
+    transition: all 400ms;
+}
+
+.video-como-usar:hover {
+    opacity: 80%;
 }
 
 main h2 {
