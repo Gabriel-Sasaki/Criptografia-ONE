@@ -123,6 +123,10 @@ main h2 {
         margin-left: 0;
     }
 
+    .botao-descriptografar {
+        margin-left: 10px;
+    }
+
     .botao-criptografar, .botao-descriptografar {
         width: auto;
         padding: auto;
