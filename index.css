@@ -71,6 +71,25 @@ main {
     background-color: white;
 }
 
+.video-como-usar {
+    width: 80%;
+    margin: 0 10%;
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.texto-como-usar {
+    margin: 40px 0 10px 0;
+}
+
+.texto-como-usar p {
+    margin: 20px;
+}
+
 @media screen and (max-width: 480px) {
     main {
         width: auto;

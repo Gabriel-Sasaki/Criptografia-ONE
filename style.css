@@ -84,8 +84,4 @@ footer p:before {
     .caixa-cabecalho, .caixa-rodape {
         width: auto;
     }
-
-    .caixa-rodape {
-        margin-top: 60%;
-    }
 }
