@@ -114,6 +114,13 @@ main h2 {
 
     .botoes-formulario {
         margin: 10px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .botao-criptografar {
+        margin-left: 0;
     }
 
     .botao-criptografar, .botao-descriptografar {
