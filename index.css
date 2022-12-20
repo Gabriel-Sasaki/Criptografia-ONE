@@ -49,6 +49,7 @@ main {
 }
 
 .botao-criptografar, .botao-descriptografar {
+    cursor: pointer;
     padding: 10px;
     border-radius: 10px;
     border-color: darkslategrey;
@@ -72,6 +73,7 @@ main {
 }
 
 .video-como-usar {
+    cursor: pointer;
     width: 80%;
     margin: 0 10%;
     transition: all 400ms;
