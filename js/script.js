@@ -60,6 +60,7 @@ function logTest(){
 function copyContent(){
     const outputText = document.getElementById('texto-saida');
     navigator.clipboard.writeText(outputText.value);
+    outputText.value = '';
     alert('Texto copiado');
 }
 
